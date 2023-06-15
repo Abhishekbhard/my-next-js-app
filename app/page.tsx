@@ -16,7 +16,7 @@ export default function Home() {
           </a>
         </p>
       </div>
-      <header className="relative px-4 py-3 flex item-center justify-between bg-white">
+      <header className="relative px-5 py-3 flex item-center justify-between bg-white">
         <div className="absolute inset-0 shadow-lg opacity-50"></div>
         <div className="flex">
           <button className="h-8 w-8">
@@ -62,7 +62,37 @@ export default function Home() {
           </button>
         </div>
       </header>
+
       <main>
+        <div className="flex items-center justify-between px-8 py-4">
+          <div>
+            <div className="text-xs font-medium text-gray-900 space-x-1">
+              <a className="underline" href="#">
+                Home
+              </a>
+              <span>/</span>
+            </div>
+            <div className="text-lg font-bold text-gray-900">Women's Shoes</div>
+          </div>
+          <div className="flex">
+            <button className="h-6 w-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="w-6 h-6 transform rotate-90"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 13.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 9.75V10.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
         <div></div>
       </main>
     </div>
